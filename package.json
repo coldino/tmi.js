@@ -1,7 +1,7 @@
 {
-  "name": "tmi.js",
-  "version": "1.8.0",
-  "description": "Javascript library for the Twitch Messaging Interface.",
+  "name": "@coldino/tmi.js-clientonly-fork",
+  "version": "1.8.1-clientonly",
+  "description": "Javascript library for the Twitch Messaging Interface, forked to remove all node requirements (to simplify client bundling).",
   "keywords": [
     "tmi",
     "tmijs",
@@ -21,7 +21,8 @@
   "engines": {
     "node": ">=10.0.0"
   },
-  "author": "Schmoopiie",
+  "type": "commonjs",
+  "author": "coldino",
   "scripts": {
     "test": "run-s eslint test:*",
     "eslint": "eslint index.js lib/* test/*",
@@ -45,8 +46,6 @@
     "url": "https://github.com/tmijs/tmi.js/issues"
   },
   "dependencies": {
-    "node-fetch": "^2.6.1",
-    "ws": "^7.4.3"
   },
   "devDependencies": {
     "@babel/core": "7.13.15",
