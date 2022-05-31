@@ -1,6 +1,6 @@
 {
   "name": "@coldino/tmi.js-clientonly-fork",
-  "version": "1.8.1-clientonly",
+  "version": "1.8.5-clientonly",
   "description": "Javascript library for the Twitch Messaging Interface, forked to remove all node requirements (to simplify client bundling).",
   "keywords": [
     "tmi",
